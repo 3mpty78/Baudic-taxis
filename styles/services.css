@@ -1,0 +1,118 @@
+#services {
+  background: url(../assets/img/traffic-2.webp) no-repeat center/cover;
+}
+
+.trip-container {
+  border: 2px solid var(--grey);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  height: 65%;
+  margin: auto;
+  overflow: hidden;
+  border: 2px solid var(--clearBlue);
+}
+.trip {
+  width: 90%;
+  height: 300%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.6s;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.slide h3 {
+  width: 100%;
+  height: fit-content;
+  font-size: 2vw;
+  font-family: var(--poiret);
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.slide a {
+  color: var(--white);
+  width: 5em;
+  height: fit-content;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0;
+  border: 2px solid var(--white);
+  border-radius: 15px;
+  transition: all 0.4s;
+}
+.slide p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 75%;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: var(--poiret);
+}
+.slide a:hover {
+  background: var(--white);
+  color: var(--background);
+  border: 2px solid var(--background);
+}
+.short {
+  backdrop-filter: blur(10px);
+}
+.short i {
+  width: 35%;
+  height: 75%;
+  background: url(../assets/img/short-trip.webp) no-repeat center/cover;
+  border-radius: 20px;
+}
+.long {
+  background: url(../assets/img/long-trip.webp) no-repeat center/cover;
+}
+.tourist {
+  background: url(../assets/img/tourist-trip.webp) no-repeat center/cover;
+}
+.slash {
+  width: 10em;
+  height: 3px;
+  background: var(--white);
+  border-radius: 5px;
+}
+.slide > * {
+  position: relative;
+  margin: 0;
+}
+.slide-toggle-container {
+  width: 10%;
+  height: 100%;
+  border-left: 2px solid var(--grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--clearBlue);
+}
+.slide-toggle {
+  margin: 1em;
+  width: 2em;
+  height: 2em;
+  background: url(../assets/img/icons/arrow.png) no-repeat center/cover;
+  filter: invert(1);
+}
+.prev {
+  transform: rotate(180deg);
+}

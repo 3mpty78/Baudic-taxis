@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&family=Poiret+One&display=swap");
+:root {
+  /* Colors */
+
+  --darkBlue: #121629;
+  --marineBlue: #232946;
+  --clearBlue: #d4d8f0;
+  --pink: #eebbc3;
+  --white: #fffffe;
+
+  /* Gradients */
+
+  /* Fonts */
+
+  --oswald: "Oswald";
+  --poiret: "Poiret One";
+}
