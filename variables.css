@@ -2,11 +2,14 @@
 :root {
   /* Colors */
 
-  --darkBlue: #121629;
-  --marineBlue: #232946;
+  --darkBlue: #301e4e;
+  --black: #1f1235;
+  --marineBlue: #67568c;
   --clearBlue: #d4d8f0;
-  --pink: #eebbc3;
-  --white: #fffffe;
+  --pink: #ff6e6c;
+  --yellow: #fbdd74;
+  --white: #f8f7ff;
+  --grey: #f4effc;
 
   /* Gradients */
 
