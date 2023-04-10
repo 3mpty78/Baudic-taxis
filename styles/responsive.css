@@ -1,0 +1,119 @@
+@media screen and (max-width: 1800px) {
+  .article-container {
+    align-items: center;
+  }
+  #services article {
+    width: 75%;
+    height: 25vw;
+    margin: 4em 0 4em;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #services article {
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+    height: auto;
+  }
+  .short-img,
+  .long-img,
+  .tourist-img {
+    width: 100%;
+    height: 25vw;
+    border-radius: 20px 20px 0 0;
+  }
+  .text-container {
+    width: 75%;
+  }
+  #vehicles .vehicles-container p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .warning {
+    width: 15em;
+    height: 15em;
+  }
+  .warning h3 {
+    font-size: 1.8em;
+  }
+  .warning h4 {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .warning {
+    width: 10em;
+    height: 10em;
+  }
+  .warning h3 {
+    font-size: 1.3em;
+  }
+  .warning h4 {
+    font-size: 0.8em;
+  }
+  .short-img,
+  .long-img,
+  .tourist-img {
+    width: 100%;
+    height: 30vw;
+  }
+  .text-container {
+    width: 75%;
+  }
+  #services p {
+    font-size: 1.2em;
+  }
+  #vehicles .vehicles-container {
+    align-items: center;
+  }
+  #vehicles .vehicles-container p {
+    margin: 0;
+    width: 75%;
+    font-size: 1.8em;
+  }
+  #vehicles .text-container h3,
+  #vehicles .text-container h4 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slogan span {
+    font-size: 6vw;
+  }
+  .warning {
+    top: 75%;
+  }
+  #vehicles .text-container {
+    display: none;
+  }
+  #vehicles .slider section .car-img {
+    width: 100%;
+    height: 30vw;
+    margin: 0;
+    padding: 0;
+  }
+  #contact {
+    height: auto;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .coordonnees,
+  form {
+    width: 75%;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slogan span {
+    font-size: 40px;
+  }
+  #services h3 {
+    font-size: 6vw;
+  }
+}

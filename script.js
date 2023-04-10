@@ -19,9 +19,9 @@ let index = 0;
 
 leftArrow.addEventListener("click", () => {
   index = index > 0 ? index - 1 : 2;
-  slider.style.transform = "translate(" + index * -33 + "%)";
+  slider.style.transform = "translate(" + index * -33.333 + "%)";
 });
 rightArrow.addEventListener("click", () => {
   index = index < 2 ? index + 1 : 0;
-  slider.style.transform = "translate(" + index * -33 + "%)";
+  slider.style.transform = "translate(" + index * -33.333 + "%)";
 });

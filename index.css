@@ -4,6 +4,7 @@
 @import "./styles/services.css";
 @import "./styles/vehicles.css";
 @import "./styles/contact.css";
+@import "./styles/responsive.css";
 
 html {
   scroll-behavior: smooth;
@@ -48,8 +49,8 @@ h2 {
   z-index: 5;
 }
 .hamburger-icon {
-  width: 50px;
-  height: 4px;
+  width: 100%;
+  height: 2px;
   border-radius: 50px;
   background: var(--white);
   margin: 5px;
@@ -98,4 +99,29 @@ header li:hover a {
 }
 .active {
   margin-top: 0;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1150px) {
+  h1 {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 6vw;
+  }
+  header a {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 10vw;
+  }
 }
