@@ -1,10 +1,24 @@
 #services {
   height: auto;
-  display: flex;
-  flex-flow: column nowrap;
   background: url(../assets/img/bretagne.webp) no-repeat center/cover;
   background-attachment: fixed;
+  border-bottom: 2px solid var(--white);
 }
+.background {
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 18, 53, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* Test Background */
+
+/* Reprise code normal */
+
 .article-container {
   width: 100%;
   display: flex;
@@ -12,13 +26,12 @@
   align-items: flex-end;
 }
 #services article {
-  width: 70%;
-  border: 1px solid red;
-  height: 40vh;
+  width: 60%;
+  height: 20vw;
   display: flex;
   justify-content: space-between;
   flex-flow: row-reverse wrap;
-  margin: 4em 90px 4em 0;
+  margin: 4em 120px 4em 0;
   backdrop-filter: blur(5px);
   border: 2px solid var(--clearBlue);
   border-radius: 20px;
@@ -28,12 +41,13 @@
   cursor: pointer;
   filter: contrast(1.25);
   box-shadow: 0 2px 20px #3e3e3e;
+  transform: translateX(-20px);
 }
 .text-container {
   width: 45%;
   height: auto;
   margin: 0;
-  padding: 1em;
+  padding: 0 1em;
 }
 #services h3 {
   width: 100%;
@@ -41,25 +55,30 @@
   font-weight: 600;
   color: var(--white);
   font-size: 2em;
+  margin: 0.5em 0;
 }
 #services p {
   text-align: justify;
   font-family: var(--poiret);
   font-size: 1.5em;
+  line-height: 1.3em;
   color: var(--white);
 }
 .short-img {
   width: 40%;
+  height: 100%;
   border-radius: 20px 0 0 20px;
   background: url(../assets/img/short-trip.webp) no-repeat center/cover;
 }
 .long-img {
   width: 40%;
+  height: 100%;
   border-radius: 20px 0 0 20px;
   background: url(../assets/img/long-trip.webp) no-repeat center/cover;
 }
 .tourist-img {
   width: 40%;
+  height: 100%;
   border-radius: 20px 0 0 20px;
   background: url(../assets/img/tourist-trip.webp) no-repeat center/cover;
 }

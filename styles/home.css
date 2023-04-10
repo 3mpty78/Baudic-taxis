@@ -5,6 +5,7 @@ main {
   background: url(../assets/img/bretagne.webp) no-repeat center/cover;
   background-attachment: fixed;
   color: var(--white);
+  border-bottom: 2px solid var(--white);
 }
 
 /* Slogan */
