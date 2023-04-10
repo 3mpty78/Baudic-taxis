@@ -3,6 +3,7 @@
 @import "./styles/home.css";
 @import "./styles/services.css";
 @import "./styles/vehicles.css";
+@import "./styles/contact.css";
 
 html {
   scroll-behavior: smooth;
@@ -12,14 +13,14 @@ html {
 
 h1 {
   position: sticky;
-  top: 30px;
+  top: 50px;
   font-family: var(--poiret);
   width: 100%;
   height: fit-content;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: lighter;
   text-shadow: 0 5px 10px var(--marineBlue);
-  padding: 50px;
+  padding-left: 50px;
 }
 h2 {
   position: sticky;
@@ -27,11 +28,11 @@ h2 {
   height: fit-content;
   margin: 0;
   padding: 50px;
-  color: var(--white);
+  color: var(--marineBlue);
   font-size: 4vw;
+  font-weight: lighter;
   text-align: left;
   font-family: var(--poiret);
-  font-weight: lighter;
 }
 .hamburger-container {
   position: fixed;
@@ -93,7 +94,7 @@ header li:hover {
   cursor: pointer;
 }
 header li:hover a {
-  text-shadow: 0 2px 5px var(--marineBlue);
+  color: var(--pink);
 }
 .active {
   margin-top: 0;

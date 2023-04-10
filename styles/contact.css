@@ -1,0 +1,124 @@
+#contact {
+  height: 100vh;
+  background: var(--clearBlue);
+}
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.coordonnees {
+  width: 40%;
+}
+.coordonnees h3 {
+  font-family: var(--poiret);
+  color: var(--marineBlue);
+  font-size: 2em;
+}
+.coordonnees picture {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.coordonnees img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.coordonnees img:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 5px var(--marineBlue);
+}
+figcaption {
+  font-family: var(--poiret);
+  color: var(--darkBlue);
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.tel {
+  border-bottom: 2px solid var(--marineBlue);
+  padding: 1em 0;
+  margin-top: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.tel h4 {
+  margin: 0;
+  font-family: var(--poiret);
+  color: var(--marineBlue);
+  font-size: 1.5em;
+}
+.tel p {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0;
+  line-height: 2em;
+}
+.tel p a {
+  text-decoration: none;
+  font-family: var(--poiret);
+  color: var(--marineBlue);
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: 0.4s;
+}
+.tel p a:hover {
+  color: var(--pink);
+  transform: translate(-10px);
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 40%;
+}
+form input {
+  width: 100%;
+  height: 2.5em;
+  margin: 1em 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid var(--marineBlue);
+  font-family: var(--poiret);
+  color: var(--darkBlue);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+form textarea {
+  width: 100%;
+  margin: 1em 0;
+  padding: 10px;
+  height: 15vw;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid var(--marineBlue);
+  font-family: var(--poiret);
+  color: var(--darkBlue);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+form button {
+  width: 6em;
+  height: 3em;
+  font-family: var(--poiret);
+  font-weight: bold;
+  color: var(--darkBlue);
+  font-size: 1.2em;
+  background: transparent;
+  border: 2px solid var(--marineBlue);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+form button:hover {
+  background: var(--pink);
+  border: 2px solid var(--pink);
+  color: var(--white);
+}
