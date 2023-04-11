@@ -66,8 +66,14 @@
   #services p {
     font-size: 1.2em;
   }
+  #vehicles .container {
+    height: 30vh;
+  }
   #vehicles .vehicles-container {
     align-items: center;
+  }
+  #vehicles .slider section .car-img {
+    height: 75%;
   }
   #vehicles .vehicles-container p {
     margin: 0;
@@ -89,6 +95,9 @@
   }
   #vehicles .text-container {
     display: none;
+  }
+  #vehicles .slider section {
+    margin: 0 1em;
   }
   #vehicles .slider section .car-img {
     width: 100%;

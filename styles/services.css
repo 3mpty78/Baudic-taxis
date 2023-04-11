@@ -31,7 +31,6 @@
   transition: 0.4s;
 }
 #services article:hover {
-  cursor: pointer;
   filter: contrast(1.25);
   box-shadow: 0 2px 20px #3e3e3e;
   transform: translateX(-20px);
